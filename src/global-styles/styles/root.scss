@@ -4,12 +4,14 @@
 
 :root {
   --color-primary: #680262;
+  --color-hover: #490245;
   --color-on-surface: #151827;
   --color-background: #f8f9fe;
   --color-body: #85859b;
   --color-stroke: #cfd1dd;
-  --body-letter-spacing: -0.1px;
+  --body-letter-spacing: -0.15px;
   --bold: 700px;
   --medium: 500px;
 }
 $breakpoint-tablet: 834px;
+$breakpoint-small-screen: 375px;
