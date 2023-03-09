@@ -5,7 +5,7 @@
 export function handleClick() {
   const btnClicked = document.querySelector("button");
   btnClicked.addEventListener("click", function () {
-    btnClicked.innerHTML = "Loading...";
+    btnClicked.innerHTML = "";
     btnClicked.classList.add("spinning");
   });
 }
