@@ -8,27 +8,29 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="main-container">
-        <img src="\images\AdobeStock_331830515 1.png" />
-        <h1>Order Summary</h1>
-        <p class="message">
+    <div class="page">
+      <div class="container">
+        <img class="container__img" src="\images\AdobeStock_331830515 1.png" />
+        <div class="text-field">
+        <h1 class="text-field__title">Order Summary</h1>
+        <p class="text-field__message">
           You're close! Confirm your purchase and complete your order in the
           next step
         </p>
+      </div>
         <div class="plan-box">
-          <div class="flex">
-            <img src="\images\music.png" />
-            <div class="line"></div>
-            <div class="plan">
-              <h2>Annual Plan</h2>
-              <span>$58.99 / year</span>
+          <div class="plan-box__flex">
+            <img class="plan-box__img" src="\images\music.png" />
+            <div class="plan-box__line"></div>
+            <div class="plan-box__info">
+              <h2 class="plan-box__title">Annual Plan</h2>
+              <span class="plan-box__price">$58.99 / year</span>
             </div>
           </div>
-          <a href="”#”">Change</a>
+          <a class="plan-box__change" href="#">Change</a>
         </div>
         <button class="button">Proceed to Payment</button>
-        <a href="”#”" class="cancel">Cancel Order</a>
+        <a href="#" class="cancel">Cancel Order</a>
       </div>
     </div>
 
